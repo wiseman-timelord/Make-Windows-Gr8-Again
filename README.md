@@ -2,6 +2,7 @@
 Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits. 
 
 ### Preview
+Most or all, of this stuff should be happening, when you install an OS...
 ```
 =======================================================================================================
     Make-Windows-Gr8-Again : Main Menu
