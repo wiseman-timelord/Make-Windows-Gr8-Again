@@ -13,19 +13,19 @@ Most or all, of this stuff should be happening in the final program...
 
 Improvement Options:
     1. Install StartIsBack and Enable Boot F8 SafeMode.
-    2. Install 4 Most Critical Windows Updates.
+    2. Install 3/4 Most Critical Windows Updates.
     3. Install .net 3.5 from Install Media (Disk/Key).
-    4. Install, .net 4.6.1 + VC 2008-2022.
+    4. Install, .net 4.6/4.8 + VC 2008-2022.
     5. Install Context Window Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
     7. Install Windows Firewall Control + 7z
     8. Install Graphics Drivers + Driver Booster.
     9. Install Vulkan Sdk 1.1 + Direct X 11.
     10. Install Python 3.9 + Powershell 4.
-    11. Install Codecs / Media Player Classic
-    12. Install, Brave, Waterfox, Tor Browse + Gyazo.
+    11. Install Codecs / MediaPlayerClassic
+    12. Install, Brave 1.47, Waterfox G6.0, Tor Browser 13.5.
     13. Install 7z + Thunderbird + Telegram.
-    14. Install Movie Maker 2012 + Google Earth.
+    14. Install Movie Maker 2012 + Google Earth Pro.
     15. Disable WindowsDefender + SmartScreen.
     16. Disable/Remove Themes + Aero + Airplane Mode.
     17. Delete Default Movies + Pictures + Music.
