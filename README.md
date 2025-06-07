@@ -7,6 +7,8 @@ Like the name states, the project is intended to revamp windows 8, which turns o
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "enable long folder path over 260 char", "Open Powershell Window here as Admin"
+- Addition of my script "Shutdown_NOW" on the desktop.
+- Preference of, AMD or nVidia or Both or Ill install my own drivers, to install/not relevantly latest, nVidia or Amd, drivers, that are still compatible with windows 8, therein, they could be hacked versions, that I host personally somewhere, that enable ALL cards the drivers actually supported, such as my poor 1060 3GB, that was actually supported correctly by the driver.    
 
 ### Ideas
 - Idea: Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
