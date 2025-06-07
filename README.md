@@ -52,7 +52,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 
 ### Ideas
 - Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
-- .Net 4.8 worked on Server, likely it will work on windows 8 with a bit of help.
+- .Net 4.8 worked on Server, likely it will work on windows 8 with a bit of help. Deepseek said it was to do with product placement, though it may be more serious.
 
 ### Requirements
 Considerations...
