@@ -53,5 +53,5 @@ Selection; Options = 1-16, Exit = X:
 Considerations...
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Need test hybrid again, but I got it working before. There may be enhancements to do in relevance to hybrid setups.
-- Games - Limited to 
+- Games - Limited to, Direct-X 11 and Vulkan 1.1. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/?.
 
