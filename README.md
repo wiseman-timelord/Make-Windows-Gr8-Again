@@ -2,7 +2,7 @@
 Status : Alpha - Its very early development, plan is not final yet.
 
 ### Description
-Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications. I do have other project to do though, but for now this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8.
+Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012.
 
 ### Preview
 Most or all, of this stuff should be happening, when you install Windows 8...
@@ -51,11 +51,13 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - There may be enhancements to do in relevance to hybrid setups.
 
 ### Ideas
-- Idea: Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
+- Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
+- .Net 4.8 worked on Server, likely it will work on windows 8 with a bit of help.
 
 ### Requirements
 Considerations...
+- Windows = Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2).
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster no driver issues.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Hybrid will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/?.
-- Apps - Limited to .net 4.6.1 level Windows API. This requires researching with AI for, compatible versions or Alternates.
+- Apps - Win 8 limited to .net 4.6.1, while Server 2012 limited to .net 4.8. Use AI to find compatible app versions.
