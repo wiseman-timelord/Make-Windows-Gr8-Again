@@ -1,5 +1,8 @@
 # Make-Windows-Gr8-Again
-Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits. 
+Status : Alpha - Its very early development, 99% of the plan is done.
+
+### Description
+Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications 
 
 ### Preview
 Most or all, of this stuff should be happening, when you install an OS...
@@ -10,18 +13,19 @@ Most or all, of this stuff should be happening, when you install an OS...
 
 Improvement Options:
     1. Critical Windows Updates.
-    2. Install of Context Window Reg-Hacks.
-    3. Install Graphics Drivers + Driver Booster.
-    4. Install Vulkan Sdk 1.1 + Direct X 11.
-    5. Install Python 3.9 + Powershell 4.
-    6. Install .net 3.5 from Install Media (Disk/Key).
-    7. Install Codecs / Media Player Classic
-    8. Install Windows Firewall Control.
-    9. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    10. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
-    11. Disable/Remove Themes + Aero.
-    12. Disable/Remove Airplane Mode.
-    13. Delete Default Movies + Pictures + Music.
+    2. Install .net 3.5 from Install Media (Disk/Key).
+    3. Install of Context Window Reg-Hacks
+    4. Insall XP-AntiSpy + Windows Privacy Tweaker.
+    5. Install Windows Firewall Control
+    6. Install Graphics Drivers + Driver Booster.
+    7. Install Vulkan Sdk 1.1 + Direct X 11.
+    8. Install Python 3.9 + Powershell 4.
+    9. Install Codecs / Media Player Classic
+    10. Install, Brave, Waterfox, Tor Browse.
+    11. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
+    12. Disable/Remove Themes + Aero.
+    13. Disable/Remove Airplane Mode.
+    14. Delete Default Movies + Pictures + Music.
 
 Selection; Options = 1-14, Exit = X: 
 ```
