@@ -25,7 +25,7 @@ Improvement Options:
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "enable long folder path over 260 char", "Open Powershell Window here as Admin"
 - Addition of my script "Shutdown_NOW" on the desktop.
-- Preference of, AMD or nVidia or Both or Ill install my own drivers, to install/not relevantly latest, nVidia or Amd, drivers, that are still compatible with windows 8, therein, they could be hacked versions, that I host personally somewhere, that enable ALL cards the drivers actually supported.    
+- Preference of, AMD or nVidia or Both, to install/not relevantly latest, nVidia 368.81 or Amd (research/find), best drivers, that are still compatible with windows 8 and wide support, therein, they could be post-hacked, ie replace file to enable ALL cards the drivers actually supported.    
 - Delete default windows media including, pictures and movies, from all user directories, while not deleting other things. Starts by finding and listing all media, conclusion on what was found could be put in a folder and made into a short video.
 - Install K-Lite Codec Pack with options, minimal, regular, full, in sub-menu.
 - Disable relevant components, then Remove Airplane Mode + traces, while not breaking mobile internet support.
