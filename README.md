@@ -2,7 +2,7 @@
 Status : Alpha - Its very early development, 99% of the plan is done.
 
 ### Description
-Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications.
+Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications. I do have other project to do though, so, this page also assists people with list of components for their own installations.
 
 ### Preview
 Most or all, of this stuff should be happening, when you install Windows 8...
@@ -33,7 +33,7 @@ Selection; Options = 1-16, Exit = X:
 ```
 
 ### Objectives
-- Install of, KB2770917, KB2770917, KB2785094, KB2795944, which are critical for things such as "Chat-Gradio-Gguf" to work.  
+- Install of, KB2770917, KB2770917, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps.  
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
 - Addition of, `Desktop\Shutdown_Now` and `C\Anti-Anti-H8te`.
