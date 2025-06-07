@@ -20,7 +20,7 @@ Improvement Options:
     10. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
     11. Disable/Remove Themes + Aero.
     12. Disable/Remove Airplane Mode.
-    13. Delete Default Movies + Pictures
+    13. Delete Default Movies + Pictures + Music.
 
 Selection; Options = 1-14, Exit = X: 
 ```
