@@ -59,6 +59,3 @@ Considerations...
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Hybrid will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/?.
 - Apps - Limited to .net 4.6.1 level Windows API. This requires researching with AI for, compatible versions or Alternates.
-
-## Notation
-As it turns out Server 2012, can install .net 4.8, does not have defender, does not have airplane mods. Given that .net 4.8 apps will work, this covers newer tools. The limit of .net able to be installed has not been fully investigated. There are issuse with graphics on Server 2012, and until this is solved, both projects are on hold.
