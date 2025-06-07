@@ -9,9 +9,9 @@ Like the name states, the project is intended to revamp windows 8, which turns o
 
 Improvement Options:
     1. Critical Windows Updates.
-    2. Install of Registry Hacks.
+    2. Install of Context Window Reg-Hacks.
     3. Install Graphics Drivers.
-    4. 
+    4. Install, Shutdown_Now and .
 
 **Under Construction**
 
@@ -32,12 +32,14 @@ Improvement Options:
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
 - Enable Firewall and Install of Windows Firewall Control. The firewall already present gets some buffout. 
 - Install old version of Driver Booster 8. Its auto-installer seems windows 8 unsupported. It will try to update without the user's concent.
+- Install of best version of vulkan_sdk 1.1 able to be found, only available version online from duckduckgo was 1.0.XX. 
 
 ### Ideas
 - Idea: Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
 
 ### Requirements
-You will need...
+Considerations...
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Need test hybrid again, but I got it working before. There may be enhancements to do in relevance to hybrid setups.
+- Games - Limited to 
 
