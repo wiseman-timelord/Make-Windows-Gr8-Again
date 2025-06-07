@@ -31,7 +31,7 @@ Improvement Options:
     17. Delete Default Movies + Pictures + Music.
     18. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
 
-Selection; Options = 1-16, Exit = X: 
+Selection; Options = 1-18, Exit = X: 
 ```
 
 ### Objectives
