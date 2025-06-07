@@ -2,7 +2,7 @@
 Status : Alpha - Its very early development, 99% of the plan is done.
 
 ### Description
-Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications. I do have other project to do though, so, this page also assists people with, list of components and version numbers, for their own installations.
+Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications. I do have other project to do though, but for now this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8.
 
 ### Preview
 Most or all, of this stuff should be happening, when you install Windows 8...
