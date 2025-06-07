@@ -14,20 +14,21 @@ Most or all, of this stuff should be happening, when you install an OS...
 Improvement Options:
     1. Critical Windows Updates.
     2. Install .net 3.5 from Install Media (Disk/Key).
-    3. Install of Context Window Reg-Hacks
-    4. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    5. Install Windows Firewall Control
-    6. Install Graphics Drivers + Driver Booster.
-    7. Install Vulkan Sdk 1.1 + Direct X 11.
-    8. Install Python 3.9 + Powershell 4.
-    9. Install Codecs / Media Player Classic
-    10. Install, Brave, Waterfox, Tor Browse.
-    11. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
-    12. Disable/Remove Themes + Aero.
-    13. Disable/Remove Airplane Mode.
-    14. Delete Default Movies + Pictures + Music.
+    3. Install, .net 4.6.1 + VC 2008-2023. 
+    4. Install Context Window Reg-Hacks.
+    5. Insall XP-AntiSpy + Windows Privacy Tweaker.
+    6. Install Windows Firewall Control
+    7. Install Graphics Drivers + Driver Booster.
+    8. Install Vulkan Sdk 1.1 + Direct X 11.
+    9. Install Python 3.9 + Powershell 4.
+    10. Install Codecs / Media Player Classic
+    11. Install, Brave, Waterfox, Tor Browse.
+    12. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
+    13. Disable/Remove Themes + Aero.
+    14. Disable/Remove Airplane Mode.
+    15. Delete Default Movies + Pictures + Music.
 
-Selection; Options = 1-14, Exit = X: 
+Selection; Options = 1-15, Exit = X: 
 ```
 
 ### Objectives
