@@ -55,4 +55,5 @@ Considerations...
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Hybrid will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/?.
+- Apps - Limited to .net 4.6.1 level Windows API. This requires researching with AI for compatible versions of apps.
 
