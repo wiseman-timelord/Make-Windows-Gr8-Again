@@ -26,10 +26,10 @@ Improvement Options:
     12. Install, Brave, Waterfox, Tor Browse + Gyazo.
     13. Install 7z + Thunderbird + Telegram.
     14. Install Movie Maker 2012 + Google Earth.
-    15. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
-    16. Disable WindowsDefender + SmartScreen.
-    17. Disable/Remove Themes + Aero + Airplane Mode.
-    18. Delete Default Movies + Pictures + Music.
+    15. Disable WindowsDefender + SmartScreen.
+    16. Disable/Remove Themes + Aero + Airplane Mode.
+    17. Delete Default Movies + Pictures + Music.
+    18. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
 
 Selection; Options = 1-16, Exit = X: 
 ```
