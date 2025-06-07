@@ -11,7 +11,7 @@ Improvement Options:
     1. Critical Windows Updates.
     2. Install of Context Window Reg-Hacks.
     3. Install Graphics Drivers + Driver Booster.
-    4. Install Vulkan Sdk + Direct X.
+    4. Install Vulkan Sdk 1.1 + Direct X 11.
     5. Install Python 3.9 + Powershell 4.
     6. Install .net 3.5 from Install Media (Disk/Key).
     7. Install Codecs / Media Player Classic
