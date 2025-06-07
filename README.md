@@ -38,6 +38,6 @@ Improvement Options:
 
 ### Requirements
 You will need...
-- CPU compatibility was fine with 
-- GPU from ~2012, best ones supported are, TitanX and 1080.
+- CPU compatibility was fine with x3900, after a little update with Driver Booster.
+- GPU from ~2012, best ones supported are, TitanX and 1080. Need research the AMD side. Need test hybrid again, but I got it working before. There may be enhancements to do in relevance to hybrid setups.
 
