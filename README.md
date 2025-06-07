@@ -60,6 +60,6 @@ Considerations...
 
 ### Ideas / Notations
 - Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
-- .Net 4.8 worked on Server, likely it will work on windows 8 with a bit of help. Deepseek said it was to do with lts aspect of Server. It would be nice to be able to install 4.8 on both though, solve a lot of app issues.
+- .Net 4.8 installed fine on Server, Deepseek said it was to do with lts aspect of Server. It would be nice to be able to install 4.8 on both though, solve a lot of app issues.
 - Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
 - Server 2012 does NOT have, airplane mode or aero by default on load or windows defender.
