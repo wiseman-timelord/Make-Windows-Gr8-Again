@@ -18,10 +18,11 @@ Improvement Options:
     8. Install Codecs / Media Player Classic
     9. Install Windows Firewall Control
     10. Install Driver Booster 8.
-    11. Install Vulkan Sdk
-    12. Disable/Remove Themes / Aero.
-    13. Disable/Remove Airplane Mode.
-    14. Delete Default Movies/Pictures
+    11. Install Vulkan Sdk.
+    12. Install XP-AntiSpy.
+    13. Disable/Remove Themes / Aero.
+    14. Disable/Remove Airplane Mode.
+    15. Delete Default Movies/Pictures
 
 Selection; Options = 1-14, Exit = X: 
 ```
