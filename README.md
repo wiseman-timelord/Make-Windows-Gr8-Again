@@ -13,7 +13,7 @@ Most or all, of this stuff should be happening, when you install Windows 8...
 
 Improvement Options:
     1. Install StartIsBack and Enable Boot F8 SafeMode.
-    1. Critical Windows Updates.
+    1. Install 4 Most Critical Windows Updates.
     2. Install .net 3.5 from Install Media (Disk/Key).
     3. Install, .net 4.6.1 + VC 2008-2022.
     4. Install 7z + Thunderbird + Telegram + Gyazo.
