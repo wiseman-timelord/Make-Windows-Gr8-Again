@@ -45,6 +45,7 @@ Selection; Options = 1-16, Exit = X:
 - Enable Firewall and Install of Windows Firewall Control. The firewall already present gets some buffout. (try find latest compatible version)
 - Install old version of Driver Booster 8. Its auto-installer seems windows 8 unsupported. It will try to update without the user's concent.
 - Install of best version of vulkan_sdk 1.1 able to be found, only available version online from duckduckgo was 1.0.XX. 
+- There may be enhancements to do in relevance to hybrid setups.
 
 ### Ideas
 - Idea: Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
@@ -52,6 +53,6 @@ Selection; Options = 1-16, Exit = X:
 ### Requirements
 Considerations...
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster.
-- GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Need test hybrid again, but I got it working before. There may be enhancements to do in relevance to hybrid setups.
+- GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Hybrid will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/?.
 
