@@ -29,7 +29,7 @@ Improvement Options:
     15. Disable WindowsDefender + SmartScreen.
     16. Disable/Remove Themes + Aero + Airplane Mode.
     17. Delete Default Movies + Pictures + Music.
-    18. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
+    18. Install Shutdown_Now + Anti-Anti-H8te.
 
 Selection; Options = 1-18, Exit = X: 
 ```
