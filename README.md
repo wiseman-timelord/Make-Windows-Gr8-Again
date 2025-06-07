@@ -5,7 +5,7 @@ Status : Alpha - Its very early development, 99% of the plan is done.
 Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications.
 
 ### Preview
-Most or all, of this stuff should be happening, when you install an OS...
+Most or all, of this stuff should be happening, when you install Windows 8...
 ```
 =======================================================================================================
     Make-Windows-Gr8-Again : Main Menu
