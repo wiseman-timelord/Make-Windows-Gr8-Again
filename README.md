@@ -1,5 +1,5 @@
 # Make-Windows-Gr8-Again
-Status : Alpha - Its very early development, 99% of the plan is done.
+Status : Alpha - Its very early development, plan is not final yet.
 
 ### Description
 Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications. I do have other project to do though, but for now this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8.
@@ -12,27 +12,30 @@ Most or all, of this stuff should be happening, when you install Windows 8...
 =======================================================================================================
 
 Improvement Options:
+    1. Install StartIsBack and Enable Boot F8 SafeMode.
     1. Critical Windows Updates.
     2. Install .net 3.5 from Install Media (Disk/Key).
-    3. Install, .net 4.6.1 + VC 2008-2023.
-    4. Install Ms Essentials Collection 2012. 
+    3. Install, .net 4.6.1 + VC 2008-2022.
+    4. Install 7z + Thunderbird + Telegram + Gyazo.
+    4. Install Movie Maker 2012 + Google Earth.
+    5. Disable WindowsDefender + SmartScreen.
     5. Install Context Window Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    7. Install Windows Firewall Control
+    7. Install Windows Firewall Control + 7z
     8. Install Graphics Drivers + Driver Booster.
     9. Install Vulkan Sdk 1.1 + Direct X 11.
     10. Install Python 3.9 + Powershell 4.
     11. Install Codecs / Media Player Classic
     12. Install, Brave, Waterfox, Tor Browse.
     13. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
-    14. Disable/Remove Themes + Aero.
-    15. Disable/Remove Airplane Mode.
+    14. Disable/Remove Themes + Aero + Airplane Mode.
     16. Delete Default Movies + Pictures + Music.
 
 Selection; Options = 1-16, Exit = X: 
 ```
 
 ### Objectives
+Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Here is the outline of components...
 - Install of, KB2770917, KB2770917, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps.  
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
@@ -57,3 +60,6 @@ Considerations...
 - Games - Limited to, Direct-X 11 and Vulkan 1.1. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/?.
 - Apps - Limited to .net 4.6.1 level Windows API. This requires researching with AI for, compatible versions or Alternates.
 
+## Notaion
+Some additional notes...
+- As it turns out Server 2012, can install .net 4.8, does not have defender, does not have airplane mods. Given that .net 4.8 apps will work, this covers newer tools. The limit of .net able to be installed has not been fully investigated. There are issuse with graphics on Server 2012, and until this is solved, both projects are on hold.
