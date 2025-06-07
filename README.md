@@ -50,10 +50,6 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Install of best version of vulkan_sdk 1.1 able to be found, only available version online from duckduckgo was 1.0.XX. 
 - There may be enhancements to do in relevance to hybrid setups.
 
-### Ideas
-- Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
-- .Net 4.8 worked on Server, likely it will work on windows 8 with a bit of help. Deepseek said it was to do with product placement, though it may be more serious.
-
 ### Requirements
 Considerations...
 - Windows = Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2).
@@ -61,3 +57,8 @@ Considerations...
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side. Hybrid will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/?.
 - Apps - Win 8 limited to .net 4.6.1, while Server 2012 limited to .net 4.8. Use AI to find compatible app versions.
+
+### Ideas / Notations
+- Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
+- .Net 4.8 worked on Server, likely it will work on windows 8 with a bit of help. Deepseek said it was to do with product placement, though it may be more serious.
+- Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
