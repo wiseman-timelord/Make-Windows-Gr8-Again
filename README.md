@@ -13,23 +13,23 @@ Most or all, of this stuff should be happening in the final program...
 
 Improvement Options:
     1. Install StartIsBack and Enable Boot F8 SafeMode.
-    1. Install 4 Most Critical Windows Updates.
-    2. Install .net 3.5 from Install Media (Disk/Key).
-    3. Install, .net 4.6.1 + VC 2008-2022.
-    4. Install 7z + Thunderbird + Telegram + Gyazo.
-    4. Install Movie Maker 2012 + Google Earth.
-    5. Disable WindowsDefender + SmartScreen.
-    5. Install Context Window Reg-Hacks.
-    6. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    7. Install Windows Firewall Control + 7z
-    8. Install Graphics Drivers + Driver Booster.
-    9. Install Vulkan Sdk 1.1 + Direct X 11.
-    10. Install Python 3.9 + Powershell 4.
-    11. Install Codecs / Media Player Classic
-    12. Install, Brave, Waterfox, Tor Browse.
-    13. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
-    14. Disable/Remove Themes + Aero + Airplane Mode.
-    16. Delete Default Movies + Pictures + Music.
+    2. Install 4 Most Critical Windows Updates.
+    3. Install .net 3.5 from Install Media (Disk/Key).
+    4. Install, .net 4.6.1 + VC 2008-2022.
+    5. Install 7z + Thunderbird + Telegram + Gyazo.
+    6. Install Movie Maker 2012 + Google Earth.
+    7. Install Context Window Reg-Hacks.
+    8. Insall XP-AntiSpy + Windows Privacy Tweaker.
+    9. Install Windows Firewall Control + 7z
+    10. Install Graphics Drivers + Driver Booster.
+    11. Install Vulkan Sdk 1.1 + Direct X 11.
+    12. Install Python 3.9 + Powershell 4.
+    13. Install Codecs / Media Player Classic
+    14. Install, Brave, Waterfox, Tor Browse.
+    15. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
+    16. Disable WindowsDefender + SmartScreen.
+    17. Disable/Remove Themes + Aero + Airplane Mode.
+    18. Delete Default Movies + Pictures + Music.
 
 Selection; Options = 1-16, Exit = X: 
 ```
