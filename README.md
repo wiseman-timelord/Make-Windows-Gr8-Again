@@ -2,7 +2,7 @@
 Status : Alpha - Its very early development, 99% of the plan is done.
 
 ### Description
-Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications 
+Like the name states, the project is intended to revamp windows 8, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of essential applications.
 
 ### Preview
 Most or all, of this stuff should be happening, when you install an OS...
@@ -14,21 +14,22 @@ Most or all, of this stuff should be happening, when you install an OS...
 Improvement Options:
     1. Critical Windows Updates.
     2. Install .net 3.5 from Install Media (Disk/Key).
-    3. Install, .net 4.6.1 + VC 2008-2023. 
-    4. Install Context Window Reg-Hacks.
-    5. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    6. Install Windows Firewall Control
-    7. Install Graphics Drivers + Driver Booster.
-    8. Install Vulkan Sdk 1.1 + Direct X 11.
-    9. Install Python 3.9 + Powershell 4.
-    10. Install Codecs / Media Player Classic
-    11. Install, Brave, Waterfox, Tor Browse.
-    12. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
-    13. Disable/Remove Themes + Aero.
-    14. Disable/Remove Airplane Mode.
-    15. Delete Default Movies + Pictures + Music.
+    3. Install, .net 4.6.1 + VC 2008-2023.
+    4. Install Ms Essentials Collection 2012. 
+    5. Install Context Window Reg-Hacks.
+    6. Insall XP-AntiSpy + Windows Privacy Tweaker.
+    7. Install Windows Firewall Control
+    8. Install Graphics Drivers + Driver Booster.
+    9. Install Vulkan Sdk 1.1 + Direct X 11.
+    10. Install Python 3.9 + Powershell 4.
+    11. Install Codecs / Media Player Classic
+    12. Install, Brave, Waterfox, Tor Browse.
+    13. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
+    14. Disable/Remove Themes + Aero.
+    15. Disable/Remove Airplane Mode.
+    16. Delete Default Movies + Pictures + Music.
 
-Selection; Options = 1-15, Exit = X: 
+Selection; Options = 1-16, Exit = X: 
 ```
 
 ### Objectives
