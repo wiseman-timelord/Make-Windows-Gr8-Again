@@ -23,9 +23,9 @@ Improvement Options:
     9. Install Vulkan Sdk 1.1 + Direct X 11.
     10. Install Python 3.9 + Powershell 4.
     11. Install Codecs / Media Player Classic
-    12. Install, Brave, Waterfox, Tor Browse.
+    12. Install, Brave, Waterfox, Tor Browse + Gyazo.
     13. Install 7z + Thunderbird + Telegram.
-    14. Install Movie Maker 2012 + Google Earth + Gyazo.
+    14. Install Movie Maker 2012 + Google Earth.
     15. Install `Desktop\Shutdown_Now` + `C\Anti-Anti-H8te`.
     16. Disable WindowsDefender + SmartScreen.
     17. Disable/Remove Themes + Aero + Airplane Mode.
