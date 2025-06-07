@@ -11,26 +11,32 @@ Improvement Options:
     1. Critical Windows Updates.
     2. Install of Context Window Reg-Hacks.
     3. Install Graphics Drivers.
-    4. Install, Shutdown_Now and .
+    4. Install, `Desktop\Shutdown_Now` and `C\Anti-Anti-H8te`.
+    5. Install Python 3.9 to UserLocal.
+    6. Install Powershell 4.
+    7. Install .net 3.5 from install media.
+    8. Install Codecs / Media Player Classic
+    9. Install Windows Firewall Control
+    10. Install Driver Booster 8.
+    11. Install Vulkan Sdk
+    12. Disable/Remove Themes / Aero.
+    13. Disable/Remove Airplane Mode.
+    14. Delete Default Movies/Pictures
 
-**Under Construction**
-
-
+Selection; Options = 1-14, Exit = X: 
 ```
 
 ### Objectives
 - Install of, KB2770917, KB2770917, KB2785094, KB2795944, which are critical for things such as "Chat-Gradio-Gguf" to work.  
-
-
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
-- Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "enable long folder path over 260 char", "Open Powershell Window here as Admin"
-- Addition of my script "Shutdown_NOW" on the desktop.
+- Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
+- Addition of, `Desktop\Shutdown_Now` and `C\Anti-Anti-H8te`.
 - Preference of, AMD or nVidia or Both, to install/not relevantly latest, nVidia 368.81 or Amd (research/find), best drivers, that are still compatible with windows 8 and wide support, therein, they could be post-hacked, ie replace file to enable ALL cards the drivers actually supported.    
 - Delete default windows media including, pictures and movies, from all user directories, while not deleting other things. Starts by finding and listing all media, conclusion on what was found could be put in a folder and made into a short video.
 - Install K-Lite Codec Pack with options, minimal, regular, full, in sub-menu.
 - Disable relevant components, then Remove Airplane Mode + traces, while not breaking mobile internet support.
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
-- Enable Firewall and Install of Windows Firewall Control. The firewall already present gets some buffout. 
+- Enable Firewall and Install of Windows Firewall Control. The firewall already present gets some buffout. (try find latest compatible version)
 - Install old version of Driver Booster 8. Its auto-installer seems windows 8 unsupported. It will try to update without the user's concent.
 - Install of best version of vulkan_sdk 1.1 able to be found, only available version online from duckduckgo was 1.0.XX. 
 
