@@ -56,7 +56,7 @@ Considerations...
 - Windows = Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2).
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster no driver issues.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side, having issues with the rx470. Hybrid nVidia-Amd will work vanilla.
-- Games - Limited to, Direct-X 11 and Vulkan 1.1 for Win8 1.3 for server 2012. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/OtherDx12Titles.
+- Games - Limited to, Direct-X 11 and Vulkan 1.1 for Win8, 1.3 for server 2012. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/OtherDx12Titles.
 - Apps - Win 8 limited to .net 4.6.1, while Server 2012 limited to .net 4.8. Use AI to find compatible app versions.
 
 ### Ideas / Notations
