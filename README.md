@@ -1,8 +1,8 @@
 # Make-Windows-Gr8-Again
-Status : Alpha - Its very early development, plan is not final yet. It will take a while to finalize the, apps and groups.
+Status : Alpha - Its very early development, plan is not final yet. 
 
 ### Description
-Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being Server 2012 only, due to windows 8 limitations being significant in comparrisson.
+Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making (It will take a while to research, then finalize the, apps and groups, then, make and test), this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being Server 2012 only, due to windows 8 limitations being significant in comparrisson.
 
 ### Preview
 Here is the line-up so far...
