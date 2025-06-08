@@ -5,7 +5,7 @@ Status : Alpha - Its very early development, plan is not final yet.
 Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being Server 2012 only, due to windows 8 limitations being significant in comparrisson.
 
 ### Preview
-Most or all, of this stuff should be happening in the final program...
+Here is the line-up so far...
 ```
 =======================================================================================================
     Make-Windows-Gr8-Again : Main Menu
@@ -37,7 +37,7 @@ Selection; Options = 1-18, Exit = X:
 ```
 
 ### Objectives
-Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Here is the outline of components...
+Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Its also looking like there will have to be sub-menus. Here is the further details on components...
 - Install of, KB2770917, KB2770917, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps. Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
@@ -53,8 +53,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Install of best version of vulkan_sdk, for windows 8 its 1.1 and for server 2012 its 1.3. Hard to find 1.1. 1.0 is out there but no direct link. 
 - Win8 will require optional Defender remove, while 2012 already has this removed.
 
-### Requirements
-Considerations...
+### Considerations
 - Windows = Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2).
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster no driver issues.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side, having issues with the rx470. Hybrid nVidia-Amd will work vanilla.
