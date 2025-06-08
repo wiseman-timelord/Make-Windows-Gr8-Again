@@ -12,7 +12,7 @@ Here is the line-up so far...
 =======================================================================================================
 
 Improvement Options:
-    1. Install StartIsBack and Enable Boot F8 SafeMode.
+    1. Install StartIsBack and Enable Boot F8 Menu.
     2. Install 3/4 Most Critical Windows Updates.
     3. Install .net 3.5 from Install Media (Disk/Key).
     4. Install, .net 4.6/4.8 + VC 2008-2022.
