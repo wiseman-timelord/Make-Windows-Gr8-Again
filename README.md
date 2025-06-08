@@ -21,7 +21,7 @@ Improvement Options:
     7. Install WinFireCtrl 5.4 + SoundSwitch 6.14 + FreeAlarmClock.
     8. Activate Testing Mode + Install Driver Booster 8.
     9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
-    10. Install Python 3.9 + Powershell 4 + Notepad++.
+    10. Install Python 3.9 + Powershell 4/5.1 + Notepad++.
     11. Install K-LiteCodecs + MediaPlayerClassic + VideoLanClassic
     12. Install, Brave 1.47, Waterfox G6.0, Google Earth Pro.
     13. Install, Tor Browser 13.5 + qBittorrent 4.5 + 7z.
@@ -38,8 +38,9 @@ Selection; Options = 1-18, Exit = X:
 
 ### Objectives
 Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Its also looking like there will have to be sub-menus. Here is the further details on components...
-- Install of, KB2770917, KB2770917, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps. Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
+- Install of, KB2770917, KB2779768, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps. Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
+- Install of Powershell limited to 4.0 on Win 8, while Server 2012 is 5.1 with updates, KB2919355, KB3000850, KB3156418, KB3173424.
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
 - Addition of, `Desktop\Shutdown_Now` and `C\Anti-Anti-H8te`.
 - Install of, AMD or nVidia or Both, pop up relating site page with drivers, people will be directed to their own drivers, and some kind of info to explain driver unlocking. There may be enhancements to do in relevance to hybrid nvidia/amd gpu setups.
