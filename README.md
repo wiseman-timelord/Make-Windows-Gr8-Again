@@ -30,7 +30,7 @@ Improvement Options:
     16. Disable WindowsDefender + SmartScreen.
     17. Disable/Remove Themes + Aero + Airplane Mode.
     18. Delete Default Movies + Pictures + Music.
-    19. Install, Shutdown_Now and Anti-Anti-H8te, scripts
+    19. Install, Shutdown_NOW and Destroy_ALL, scripts
 
 Selection; Options = 1-18, Exit = X: 
 ```
