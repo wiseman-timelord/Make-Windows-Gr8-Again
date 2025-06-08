@@ -44,7 +44,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Addition of, `Desktop\Shutdown_Now` and `C\Anti-Anti-H8te`.
 - Install of, AMD or nVidia or Both, pop up relating site page with drivers, people will be directed to their own drivers, and some kind of info to explain driver unlocking. There may be enhancements to do in relevance to hybrid nvidia/amd gpu setups.
 - Win8 limited to .net 4.6.1, while server 2012 was .Net 4.8 (final). Deepseek said it was to do with server's lts aspect. It would be nice to be able to install 4.8 on both though, solve a lot of app issues.
-- Delete default windows media including, pictures and movies, from all user directories, while not deleting other things. Starts by finding and listing all media, conclusion on what was found could be put in a folder and made into a short video.
+- Delete default windows media including, pictures and movies, from all user/public directories, while not deleting other things. Starts by finding and listing all media. Server 2012 does not have such media.
 - Install K-Lite Codec Pack with options, minimal, regular, full, in sub-menu.
 - Disable relevant components, then Remove Airplane Mode + traces, while not breaking mobile internet support. Server 2012 does NOT have, airplane mode.
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
@@ -54,11 +54,12 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Win8 will require optional Defender remove, while 2012 already has this removed.
 
 ### Considerations
-- Windows = Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2).
+- Windows - Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2).
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster no driver issues.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side, having issues with the rx470. Hybrid nVidia-Amd will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1 for Win8, 1.3 for server 2012. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/OtherDx12Titles.
 - Apps - Win 8 limited to .net 4.6.1, while Server 2012 limited to .net 4.8. Use AI to find compatible app versions.
+
 
 ### Ideas / Notations
 - Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
