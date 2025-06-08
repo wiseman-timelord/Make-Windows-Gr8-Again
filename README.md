@@ -44,6 +44,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
 - Addition of, `Desktop\Shutdown_Now` and `C\Anti-Anti-H8te`.
 - Install of, AMD or nVidia or Both, pop up relating site page with drivers, people will be directed to their own drivers, and some kind of info to explain driver unlocking. There may be enhancements to do in relevance to hybrid nvidia/amd gpu setups.
+- Activation of "Testing Mode" will enable "Unsigned Drivers", hence, drivers are more likely to install correctly.
 - Win8 limited to .net 4.6.1, while server 2012 was .Net 4.8 (final). Deepseek said it was to do with server's lts aspect. It would be nice to be able to install 4.8 on both though, solve a lot of app issues.
 - Delete default windows media including, pictures and movies, from all user/public directories, while not deleting other things. Starts by finding and listing all media. Server 2012 does not have such media.
 - Install K-Lite Codec Pack with options, minimal, regular, full, in sub-menu.
