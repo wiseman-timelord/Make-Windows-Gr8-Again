@@ -20,7 +20,7 @@ Improvement Options:
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
     7. Install Windows Firewall Control + 7z
     8. Install Graphics Drivers + Driver Booster.
-    9. Install Vulkan Sdk 1.1 + Direct X 11.
+    9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
     10. Install Python 3.9 + Powershell 4.
     11. Install Codecs / MediaPlayerClassic
     12. Install, Brave 1.47, Waterfox G6.0, Tor Browser 13.5.
@@ -47,8 +47,8 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
 - Enable Firewall and Install of Windows Firewall Control. The firewall already present gets some buffout. (try find latest compatible version)
 - Install old version of Driver Booster 8. Its auto-installer seems windows 8 unsupported. It will try to update without the user's concent.
-- Install of best version of vulkan_sdk 1.1 able to be found, only available version online from duckduckgo was 1.0.XX. 
-- There may be enhancements to do in relevance to hybrid setups.
+- Install of best version of vulkan_sdk, for windows 8 its 1.1 and for server 2012 its 1.3. Hard to find 1.1. 1.0 is out there but no direct link. 
+- There may be enhancements to do in relevance to hybrid nvidia/amd gpu setups.
 
 ### Requirements
 Considerations...
