@@ -23,13 +23,14 @@ Improvement Options:
     9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
     10. Install Python 3.9 + Powershell 4.
     11. Install Codecs / MediaPlayerClassic
-    12. Install, Brave 1.47, Waterfox G6.0, Tor Browser 13.5.
-    13. Install 7z + Thunderbird + Telegram.
-    14. Install Movie Maker 2012 + Google Earth Pro.
-    15. Disable WindowsDefender + SmartScreen.
-    16. Disable/Remove Themes + Aero + Airplane Mode.
-    17. Delete Default Movies + Pictures + Music.
-    18. Install Shutdown_Now + Anti-Anti-H8te.
+    12. Install, Brave 1.47, Waterfox G6.0, Google Earth Pro.
+    13. Install, Tor Browser 13.5 + qBittorrent 4.5.
+    14. Install Thunderbird + Telegram.
+    15. Install MovieMaker, Writer, Mail. (Essentials 2012).
+    16. Disable WindowsDefender + SmartScreen.
+    17. Disable/Remove Themes + Aero + Airplane Mode.
+    18. Delete Default Movies + Pictures + Music.
+    19. Install, Shutdown_Now and Anti-Anti-H8te, scripts
 
 Selection; Options = 1-18, Exit = X: 
 ```
