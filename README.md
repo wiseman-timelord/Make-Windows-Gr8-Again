@@ -27,7 +27,7 @@ Improvement Options:
     13. Install, Tor Browser 13.5 + qBittorrent 4.5 + 7z.
     14. Install Thunderbird + Telegram
     15. Install MovieMaker, Writer, Mail. (Essentials 2012).
-    16. Install FireStorm 6.6 + Gyazo.
+    16. Install FireStorm 6.6 + LSL Editor + Gyazo.
     16. Disable WindowsDefender + SmartScreen.
     17. Disable/Remove Themes + Aero + Airplane Mode.
     18. Delete Default Movies + Pictures + Music.
