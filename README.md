@@ -18,15 +18,16 @@ Improvement Options:
     4. Install, .net 4.6/4.8 + VC 2008-2022.
     5. Install Context Window Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    7. Install Windows Firewall Control + 7z
+    7. Install Windows Firewall Control
     8. Activate Testing Mode + Install Driver Booster 8.
     9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
-    10. Install Python 3.9 + Powershell 4.
+    10. Install Python 3.9 + Powershell 4 + Notepad++.
     11. Install Codecs / MediaPlayerClassic
     12. Install, Brave 1.47, Waterfox G6.0, Google Earth Pro.
-    13. Install, Tor Browser 13.5 + qBittorrent 4.5.
-    14. Install Thunderbird + Telegram.
+    13. Install, Tor Browser 13.5 + qBittorrent 4.5 + 7z.
+    14. Install Thunderbird + Telegram
     15. Install MovieMaker, Writer, Mail. (Essentials 2012).
+    16. Install FireStorm 6.6 + Gyazo.
     16. Disable WindowsDefender + SmartScreen.
     17. Disable/Remove Themes + Aero + Airplane Mode.
     18. Delete Default Movies + Pictures + Music.
