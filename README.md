@@ -18,7 +18,7 @@ Improvement Options:
     4. Install, .net 4.6/4.8 + VC 2008-2022.
     5. Install, Context Window + Long File Name, Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    7. Install WindowsFirewallControl 5.4 + SoundSwitch 6.14
+    7. Install WinFireCtrl 5.4 + SoundSwitch 6.14 + FreeAlarmClock.
     8. Activate Testing Mode + Install Driver Booster 8.
     9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
     10. Install Python 3.9 + Powershell 4 + Notepad++.
