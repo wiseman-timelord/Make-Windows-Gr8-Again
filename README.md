@@ -40,7 +40,7 @@ Selection; Options = 1-18, Exit = X:
 Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Its also looking like there will have to be sub-menus. Here is the further details on components...
 - Install of, KB2770917, KB2779768, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps. Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
-- Install of Powershell limited to 4.0 on Win 8, while Server 2012 is 5.1 with updates, KB2919355, KB3000850, KB3156418, KB3173424.
+- Install of Powershell limited to 4.0 on Win 8. Server 2012 is 5.1 with updates, KB2919355, KB3000850, KB3156418, KB3173424, and then install .NET Core 2.1, and then install PowerShell Core 6.2.
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
 - Addition of, `Desktop\Shutdown_Now` and `C\Anti-Anti-H8te`.
 - Install of, AMD or nVidia or Both, pop up relating site page with drivers, people will be directed to their own drivers, and some kind of info to explain driver unlocking. There may be enhancements to do in relevance to hybrid nvidia/amd gpu setups.
