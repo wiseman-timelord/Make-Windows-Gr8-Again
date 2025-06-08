@@ -19,7 +19,7 @@ Improvement Options:
     5. Install Context Window Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
     7. Install Windows Firewall Control + 7z
-    8. Install Graphics Drivers + Driver Booster.
+    8. Activate Testing Mode + Install Driver Booster 8.
     9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
     10. Install Python 3.9 + Powershell 4.
     11. Install Codecs / MediaPlayerClassic
