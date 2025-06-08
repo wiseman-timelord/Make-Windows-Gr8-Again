@@ -1,5 +1,5 @@
 # Make-Windows-Gr8-Again
-Status : Alpha - Its very early development, plan is not final yet.
+Status : Alpha - Its very early development, plan is not final yet. It will take a while to finalize the, apps and groups.
 
 ### Description
 Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being Server 2012 only, due to windows 8 limitations being significant in comparrisson.
@@ -25,9 +25,9 @@ Improvement Options:
     11. Install Codecs / MediaPlayerClassic
     12. Install, Brave 1.47, Waterfox G6.0, Google Earth Pro.
     13. Install, Tor Browser 13.5 + qBittorrent 4.5 + 7z.
-    14. Install Thunderbird + Telegram
+    14. Install Thunderbird + Telegram + Gyazo
     15. Install MovieMaker, Writer, Mail. (Essentials 2012).
-    16. Install FireStorm 6.6 + LSL Editor + Gyazo.
+    16. Install FireStorm 6.6 + LSL Editor.
     16. Disable WindowsDefender + SmartScreen.
     17. Disable/Remove Themes + Aero + Airplane Mode.
     18. Delete Default Movies + Pictures + Music.
