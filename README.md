@@ -16,7 +16,7 @@ Improvement Options:
     2. Install 3/4 Most Critical Windows Updates.
     3. Install .net 3.5 from Install Media (Disk/Key).
     4. Install, .net 4.6/4.8 + VC 2008-2022.
-    5. Install Context Window Reg-Hacks.
+    5. Install, Context Window + Long File Name, Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
     7. Install WindowsFirewallControl 5.4 + SoundSwitch 6.14
     8. Activate Testing Mode + Install Driver Booster 8.
