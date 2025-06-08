@@ -22,7 +22,7 @@ Improvement Options:
     8. Activate Testing Mode + Install Driver Booster 8.
     9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
     10. Install Python 3.9 + Powershell 4 + Notepad++.
-    11. Install Codecs / MediaPlayerClassic
+    11. Install K-LiteCodecs + MediaPlayerClassic + Vlc
     12. Install, Brave 1.47, Waterfox G6.0, Google Earth Pro.
     13. Install, Tor Browser 13.5 + qBittorrent 4.5 + 7z.
     14. Install Thunderbird + Telegram + Gyazo
