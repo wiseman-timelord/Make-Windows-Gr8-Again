@@ -28,8 +28,8 @@ Improvement Options:
     14. Install Thunderbird + Telegram + Gyazo
     15. Install MovieMaker, Writer, Mail. (Essentials 2012).
     16. Install FireStorm 6.6 + LSL Editor.
-    16. Disable WindowsDefender + SmartScreen.
-    17. Disable/Remove Themes + Aero + Airplane Mode.
+    16. Disable WindowsDefender + SmartScreen + Airplane Mode.
+    17. Disable/Remove Themes/Aero + install/Use Classic-Greys. 
     18. Delete Default Movies + Pictures + Music.
     19. Install, Shutdown_NOW and Destroy_ALL, scripts
 
