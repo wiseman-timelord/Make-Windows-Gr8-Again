@@ -40,13 +40,13 @@ Selection; Options = 1-18, Exit = X:
 Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Its also looking like there will have to be sub-menus. Here is the further details on components...
 - Install of, KB2770917, KB2779768, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps. Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
-- Install of Powershell limited to 4.0 on Win 8. Server 2012 is being investigated, it involves installing [.NET Core 2.1.818](https://dotnet.microsoft.com/en-us/download/dotnet/2.1), and then [PowerShell Core 6.2.7](https://github.com/PowerShell/PowerShell/releases/download/v6.2.7/PowerShell-6.2.7-win-x64.msi) .
+- Install of Powershell limited to 4.0 on Win 8. Server 2012 is able to install [.NET Core 2.1.818](https://dotnet.microsoft.com/en-us/download/dotnet/2.1), and then [PowerShell Core 6.2.7](https://github.com/PowerShell/PowerShell/releases/download/v6.2.7/PowerShell-6.2.7-win-x64.msi) .
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
 - Addition of, `Desktop\Shutdown_Now` and `C\Destroy_All`, scripts for shutdown reinforcement and selective data erasure.
 - Install of, AMD or nVidia or Both. Still determening depth of features. could involve identifiers unlocking for certain drivers. There may be enhancements to do for hybrid nvidia/amd gpu setups.
 - Activation of "Testing Mode" will enable "Unsigned Drivers", hence, drivers are more likely to install correctly.
 - Win8 limited to .net 4.6.1, while server 2012 was .Net 4.8 (final). Deepseek said it was to do with server's lts aspect. It would be nice to be able to install 4.8 on both though, solve a lot of app issues.
-- Delete default windows media including, pictures and movies, from all user/public directories, while not deleting other things. Starts by finding and listing all media. Server 2012 does not have such media.
+- Delete default windows media including, pictures and movies, from all user/public directories. Server 2012 does not have such media.
 - Install K-Lite Codec Pack with options, minimal, regular, full, in sub-menu.
 - Disable relevant components, then Remove Airplane Mode + traces, while not breaking mobile internet support. Server 2012 does NOT have, airplane mode.
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
