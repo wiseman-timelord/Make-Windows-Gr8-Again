@@ -12,24 +12,24 @@ Here is the line-up so far...
 =======================================================================================================
 
 Improvement Options:
-    1. Install StartIsBack and Enable Boot F8 Menu.
+    1. Install StartIsBack and EnableBootF8Menu.
     2. Install 3/4 Most Critical Windows Updates.
     3. Install .net 3.5 from Install Media (Disk/Key).
     4. Install, .net 4.6/4.8 + VC 2008-2022.
-    5. Install, Context Window + Long File Name, Reg-Hacks.
+    5. Install, ContextWindow + LongFileName, Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
     7. Install WinFireCtrl 5.4 + SoundSwitch 6.14 + FreeAlarmClock.
-    8. Activate Testing Mode + Install Driver Booster 8.
-    9. Install Vulkan Sdk 1.1/1.3 + Direct X 11.
-    10. Install Python 3.9 + Powershell 4/5.1 + Notepad++.
+    8. Activate TestingMode + Install DriverBooster8 + ExperienceIndex
+    9. Install VulkanSdk 1.1/1.3 + DirectX11.
+    10. Install Python3.9 + Powershell 4/5.1 + Notepad++.
     11. Install K-LiteCodecs + MediaPlayerClassic + VideoLanClassic
-    12. Install, Brave 1.47, Waterfox G6.0, Google Earth Pro.
-    13. Install, Tor Browser 13.5 + qBittorrent 4.5 + 7z.
+    12. Install, Brave1.47, WaterfoxG6.0, GoogleEarthPro7.x.
+    13. Install, TorBrowser13.5 + qBittorrent4.5 + 7z.
     14. Install Thunderbird + Telegram + Gyazo
-    15. Install MovieMaker, Writer, Mail. (Essentials 2012).
-    16. Install FireStorm 6.6 + LSL Editor.
-    16. Disable WindowsDefender + SmartScreen + Airplane Mode.
-    17. Disable/Remove Themes/Aero + install/Use Classic-Greys. 
+    15. Install Essentials2012 - MovieMaker, Writer, Mail.
+    16. Install FireStorm6.6 + LSLEditor.
+    16. Disable/Remove WindowsDefender + SmartScreen + AirplaneMode.
+    17. Install/Use Classic-Greys + Disable/Remove Themes/Aero. 
     18. Delete Default Movies + Pictures + Music.
     19. Install, Shutdown_NOW and Destroy_ALL, scripts
 
