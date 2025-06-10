@@ -16,10 +16,10 @@ Improvement Options:
     2. Install 3/4 Most Critical Windows Updates.
     3. Install .net3.5 from Install Media (Disk/Key).
     4. Install, .net 4.6/4.8 + VC 2008-2022.
-    5. Install, ContextWindow + LongFileName, Reg-Hacks.
-    6. Insall XP-AntiSpy + Windows Privacy Tweaker.
+    5. Install, ContextWindowRegHacks + TetraCopy3.17.
+    6. Insall XP-AntiSpy + WindowsPrivacyTweaker.
     7. Install WinFireCtrl5.4 + SoundSwitch6.14 + FreeAlarmClock5.4.
-    8. Activate TestingMode + Install DriverBooster8 + ExperienceIndex
+    8. Activate TestingMode + Install DriverBooster8.
     9. Install VulkanSdk 1.1/1.3 + DirectX11.
     10. Install Python3.9(Wn8)/3.12.4(Se2012) + Powershell 4(Wn8) / 5.1+6.2.5/7.4.5(Se2012).
     11. Install K-LiteCodecs + MediaPlayerClassic + VideoLanClassic
