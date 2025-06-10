@@ -16,7 +16,7 @@ Improvement Options:
     2. Install 3/4 Most Critical Windows Updates.
     3. Install .net3.5 from Install Media (Disk/Key).
     4. Install, .net 4.6/4.8 + VC 2008-2022.
-    5. Install, ContextWindowRegHacks + TetraCopy3.17.
+    5. Install, ContextWindowRegHacks + TetraCopy3.17(Win8).
     6. Insall XP-AntiSpy + WindowsPrivacyTweaker.
     7. Install WinFireCtrl5.4 + SoundSwitch6.14 + FreeAlarmClock5.4.
     8. Activate TestingMode + Install DriverBooster8.
