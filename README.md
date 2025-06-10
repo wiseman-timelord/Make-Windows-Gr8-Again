@@ -21,7 +21,7 @@ Improvement Options:
     7. Install WinFireCtrl5.4 + SoundSwitch6.14 + FreeAlarmClock5.4.
     8. Activate TestingMode + Install DriverBooster8 + ExperienceIndex
     9. Install VulkanSdk 1.1/1.3 + DirectX11.
-    10. Install Python3.9 + Powershell 4/5.1 + Notepad++.
+    10. Install Python3.9 + Powershell 4/5.1/6.2.7 + Notepad++.
     11. Install K-LiteCodecs + MediaPlayerClassic + VideoLanClassic
     12. Install, Brave1.47, WaterfoxG6.0, GoogleEarthPro7.x.
     13. Install, TorBrowser13.5 + qBittorrent4.5 + 7z.
