@@ -56,6 +56,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Install old version of Driver Booster 8. Its auto-installer seems windows 8 unsupported. It will try to update without the user's concent.
 - Install of best version of vulkan_sdk, for windows 8 its 1.1 and for server 2012 its 1.3. Hard to find 1.1. 1.0 is out there but no direct link. 
 - Win8 will require optional Defender remove, while 2012 already has this removed.
+- Install Last Monthly rollup updates Windows8/[Server2012](https://www.catalog.update.microsoft.com/Search.aspx?q=KB5030278) + Insert TLS 1.2/1.3 into registry + Update Root Certificates
 
 ### Considerations
 - Windows - Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2).
