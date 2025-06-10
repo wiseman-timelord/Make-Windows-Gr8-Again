@@ -21,7 +21,7 @@ Improvement Options:
     7. Install WinFireCtrl5.4 + SoundSwitch6.14 + FreeAlarmClock5.4.
     8. Activate TestingMode + Install DriverBooster8.
     9. Install VulkanSdk 1.1/1.3 + DirectX11.
-    10. Install Python3.9(Wn8)/3.12.4(Se2012) + Powershell 4(Wn8) / 5.1+6.2.5/7.4.5(Se2012).
+    10. Install Python 3.8(Win8)/3.9(2012) + Powershell 4(Win8)/5.1+6.2.5(2012).
     11. Install K-LiteCodecs + MediaPlayerClassic + VideoLanClassic
     12. Install, Brave1.47, WaterfoxG6.0, GoogleEarthPro7.x.
     13. Install, TorBrowser13.5 + qBittorrent4.5 + 7z.
@@ -31,7 +31,7 @@ Improvement Options:
     17. Install Rainmeter4.5.23 + WiseRain + PowershellRM
     18. Install/Use Classic-Greys + Disable/Remove Themes/Aero. 
     19. Disable/Remove WindowsDefender + AirplaneMode +  SmartScreen.
-    20. Delete Default Movies+Pictures+Music (Win8 Only).
+    20. Delete Default Movies+Pictures+Music (Win8).
     21. Install, Shutdown_NOW and Destroy_ALL, scripts
 
 Selection; Options = 1-18, Exit = X: 
