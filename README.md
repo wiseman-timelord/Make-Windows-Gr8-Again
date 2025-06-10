@@ -28,10 +28,11 @@ Improvement Options:
     14. Install Thunderbird + Telegram + Gyazo
     15. Install Essentials2012 - MovieMaker, Writer, Mail.
     16. Install FireStorm6.6 + LSLEditor.
-    17. Install/Use Classic-Greys + Disable/Remove Themes/Aero. 
-    18. Disable/Remove WindowsDefender + AirplaneMode +  SmartScreen.
-    19. Delete Default Movies+Pictures+Music (Win8 Only).
-    20. Install, Shutdown_NOW and Destroy_ALL, scripts
+    17. Install Rainmeter + WiseRain + PowershellRM
+    18. Install/Use Classic-Greys + Disable/Remove Themes/Aero. 
+    19. Disable/Remove WindowsDefender + AirplaneMode +  SmartScreen.
+    20. Delete Default Movies+Pictures+Music (Win8 Only).
+    21. Install, Shutdown_NOW and Destroy_ALL, scripts
 
 Selection; Options = 1-18, Exit = X: 
 ```
