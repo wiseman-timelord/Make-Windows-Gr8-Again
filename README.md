@@ -52,6 +52,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Disable relevant components, then Remove Airplane Mode + traces, while not breaking mobile internet support. Server 2012 does NOT have, airplane mode.
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
 - Enable Firewall and Install of Windows Firewall Control. The firewall already present gets some buffout. (try find latest compatible version)
+- Install rainmeter for powershell with plugin enhancement desktop stats, with simple re-programability through AI. 
 - Install old version of Driver Booster 8. Its auto-installer seems windows 8 unsupported. It will try to update without the user's concent.
 - Install of best version of vulkan_sdk, for windows 8 its 1.1 and for server 2012 its 1.3. Hard to find 1.1. 1.0 is out there but no direct link. 
 - Win8 will require optional Defender remove, while 2012 already has this removed.
