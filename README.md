@@ -14,11 +14,11 @@ Here is the line-up so far...
 Improvement Options:
     1. Install StartIsBack and EnableBootF8Menu.
     2. Install 3/4 Most Critical Windows Updates.
-    3. Install .net 3.5 from Install Media (Disk/Key).
+    3. Install .net3.5 from Install Media (Disk/Key).
     4. Install, .net 4.6/4.8 + VC 2008-2022.
     5. Install, ContextWindow + LongFileName, Reg-Hacks.
     6. Insall XP-AntiSpy + Windows Privacy Tweaker.
-    7. Install WinFireCtrl 5.4 + SoundSwitch 6.14 + FreeAlarmClock.
+    7. Install WinFireCtrl5.4 + SoundSwitch6.14 + FreeAlarmClock5.4.
     8. Activate TestingMode + Install DriverBooster8 + ExperienceIndex
     9. Install VulkanSdk 1.1/1.3 + DirectX11.
     10. Install Python3.9 + Powershell 4/5.1 + Notepad++.
@@ -28,10 +28,10 @@ Improvement Options:
     14. Install Thunderbird + Telegram + Gyazo
     15. Install Essentials2012 - MovieMaker, Writer, Mail.
     16. Install FireStorm6.6 + LSLEditor.
-    16. Disable/Remove WindowsDefender + SmartScreen + AirplaneMode.
     17. Install/Use Classic-Greys + Disable/Remove Themes/Aero. 
-    18. Delete Default Movies + Pictures + Music.
-    19. Install, Shutdown_NOW and Destroy_ALL, scripts
+    18. Disable/Remove WindowsDefender + AirplaneMode +  SmartScreen.
+    19. Delete Default Movies+Pictures+Music (Win8 Only).
+    20. Install, Shutdown_NOW and Destroy_ALL, scripts
 
 Selection; Options = 1-18, Exit = X: 
 ```
