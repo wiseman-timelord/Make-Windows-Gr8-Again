@@ -59,7 +59,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Install Last Monthly rollup updates Windows8/[Server2012](https://www.catalog.update.microsoft.com/Search.aspx?q=KB5029295) (from just before they broke startisback) + Insert [TLS 1.2/1.3](https://manage.accuwebhosting.com/knowledgebase/3578/How-to-enable-TLS-1.2-on-Windows-2012-Server.html) into registry + [Update Root Certificates](https://github.com/asheroto/UpdateRootCertificates/releases/tag/4.0.0)
 
 ### Considerations
-- Windows - Windows, 8 and 2012, both build 9200 (the final builds before, 8.1 / 2012 R2). Do not burn windows <= 8/2012 isos with Linux, instead use "Rufus" under some Windows. For the issue of required drivers for install on modern HD, find the drivers, otherwise try editions with drivers such as "windows 8 usb-3.0+nvme", albeit as a stepping stone to get 2012 working.
+- Windows - Windows, 8 and 2012, both build 9200 (the final builds before 8.1/2012R2 Beta). Do not burn windows <= 8/2012 isos with Linux, instead use "Rufus" under actual Windows. For the issue of drivers for install on modern HD, then find the drivers, otherwise try editions with drivers such as "windows 8 usb-3.0+nvme", albeit as a stepping stone to get rufus working.
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster no driver issues.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side, having issues with the rx470. Hybrid nVidia-Amd will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1 for Win8, 1.3 for server 2012. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/OtherDx12Titles.
