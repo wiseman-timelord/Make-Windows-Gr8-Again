@@ -60,7 +60,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 
 ### Considerations
 - Windows - Windows, 8 and 2012, both build 9200 (the final builds before 8.1/2012R2 Beta). 
-- ISOs - Do not burn windows <= 8/2012 isos with Linux (multi-writer seems ok), instead use "Rufus" under non-VM Windows (i think it adds modern driver). During install you may need a driver for modern HD, try find the drivers, otherwise try editions with modern drivers included such as "windows 8 usb-3.0+nvme", albeit as a stepping stone to get rufus working.
+- ISOs - Do not burn windows <= 8/2012 isos with Linux (multi-writer seems ok), instead use "Rufus" under Windows (USB on VM is not simple). During install you may need a driver for modern HD, try find the drivers, otherwise try editions with modern drivers included such as "windows 8 usb-3.0+nvme".
 - CPU - compatibility was fine with x3900, after a little update with Driver Booster no driver issues.
 - GPU - best ones supported are, TitanX and 1080. Need research the AMD side, having issues with the rx470. Hybrid nVidia-Amd will work vanilla.
 - Games - Limited to, Direct-X 11 and Vulkan 1.1 for Win8, 1.3 for server 2012. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/OtherDx12Titles.
