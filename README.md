@@ -1,5 +1,5 @@
 # Make-Windows-Gr8-Again
-Status : Alpha - Its very early development, plan is not final yet. This will be a slow-back-burner project.
+Status : Alpha - Its not made yet, and wont be for some time, as last good usb broke; please fund me through, Ko-fi or Patreon, so I can, for example, get a new USB drive, and yes, its sad this project got stopped what with all of it mostly figured out..
 
 ### Description
 Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making (It will take a while to research, then finalize the, apps and groups, then, make and test), this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being developed for Server 2012 first, due to windows 8 limitations being significant in comparrisson, such as .net 4.8 instead of 4.6.1 on 8, and powershell 6.2.7 instead of 4.0 on 8, vulkan being 1.3 instead of 1.1 on 8.
