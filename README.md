@@ -77,6 +77,5 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 .\data\Classic-GreyRoyale_003c.theme
 ```
 
-### Ideas / Notations
-- Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
+### Notations
 -  2012 dont have aero by default on boot, need to investigate the effects of mod attempted/failed with 8, that did have it during boot.
