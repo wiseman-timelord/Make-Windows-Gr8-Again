@@ -74,7 +74,7 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 .\scripts\interface.ps1
 .\scripts\utilities.ps1
 .\scripts\temporary.ps1
-.\data\persistent.psd1
+.\data\Classic-GreyRoyale_003c.theme
 ```
 
 ### Ideas / Notations
