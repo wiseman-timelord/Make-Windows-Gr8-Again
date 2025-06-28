@@ -5,7 +5,28 @@ Status : Alpha - Its not made yet, and likely it will be progressed only each ti
 Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making (It will take a while to research, then finalize the, apps and groups, then, make and test), this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being developed for Server 2012 first, due to windows 8 limitations being significant in comparrisson, such as .net 4.8 instead of 4.6.1 on 8, and powershell 6.2.7 instead of 4.0 on 8, vulkan being 1.3 instead of 1.1 on 8.
 
 ### Preview
-Here is the line-up so far...
+- here is the current main menu...
+```
+=======================================================================================================
+    Make-Windows-Gr8-Again : Main Menu
+=======================================================================================================
+
+System Configuration:
+    1. Core System Tweaks (2/4 done)
+    2. Security & Privacy (1/3 done)
+    3. .NET & Runtime Components (0/2 done)
+    4. Driver & Hardware Support (0/2 done)
+
+Software Installation:
+    5. Essential Utilities (1/2 done)
+    6. Media & Productivity (0/2 done)
+    7. Internet & Networking (0/2 done)
+    8. Development Tools (0/2 done)
+
+Selection (1-8, X=Exit): 
+
+```
+- Here is the original plan for the main menu line-up so far...
 ```
 =======================================================================================================
     Make-Windows-Gr8-Again : Main Menu
