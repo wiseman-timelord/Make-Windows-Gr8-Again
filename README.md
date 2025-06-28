@@ -66,6 +66,16 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Games - Limited to, Direct-X 11 and Vulkan 1.1 for Win8, 1.3 for server 2012. This means, Yes Fallout4/GTA5/Valheim and No Cyberpunk/OtherDx12Titles.
 - Apps - Win 8 limited to .net 4.6.1, while Server 2012 limited to .net 4.8. Use AI to find compatible app versions.
 
+### File Structure
+```
+.\Make-Windows-Gr8-Again.bat
+.\launcher.ps1
+.\installer.ps1
+.\scripts\interface.ps1
+.\scripts\utilities.ps1
+.\scripts\temporary.ps1
+.\data\persistent.psd1
+```
 
 ### Ideas / Notations
 - Some kind of shim script, that will automatically check, and if required, capture and resize, contents of terminal output, to being suited to 80 character width display. Thus enabling compatibility with modern python apps, mainly for separators etc.
