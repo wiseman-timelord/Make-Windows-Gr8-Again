@@ -88,6 +88,7 @@ Selection; Options = 1-18, Exit = X:
 ### Notation:
 - This project switched to Server 2012 after finding limitation with NET 4.61 on Windows 8 instead of 4.8+ on Server 2012, and powershell 7+ instead of 4.0 on 8, vulkan being 1.3 instead of 1.1 on 8, hence stuff on windows 8 will be untested, until I have, spare machine/time and/or reasoning/motivation to do so. 
 -  I cant log in to X on the legacy OS, I dont know why just that site, doesnt support legacy browsers for security or something my best guess??
+- OpenHardwareMonitor is only safe to install, if somehow we can pre-configure to not show stats for drives, or will hang on shutdown with usbdrive plugged in.
 
 ### Development
 Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Its also looking like there will have to be sub-menus. Here is the further details on components...
