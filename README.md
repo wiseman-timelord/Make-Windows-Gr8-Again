@@ -2,7 +2,7 @@
 Status : Alpha - Its not made yet, and likely it will be progressed only each time I install windows 8/2012...
 
 ### Description
-Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making (It will take a while to research, then finalize the, apps and groups, then, make and test), this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being developed for Server 2012 first, due to windows 8 limitations being significant in comparrisson, such as .net 4.8 instead of 4.6.1 on 8, and powershell 6.2.7 instead of 4.0 on 8, vulkan being 1.3 instead of 1.1 on 8.
+Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, for which 2012 turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications, and no DirectX 12.
 
 ### Preview
 - Here is the Batch Menu currently...
@@ -85,7 +85,11 @@ Improvement Options:
 Selection; Options = 1-18, Exit = X: 
 ```
 
-### Objectives
+### Notation:
+- This project switched to Server 2012 after finding limitation with NET 4.61 on Windows 8 instead of 4.8+ on Server 2012, and powershell 7+ instead of 4.0 on 8, vulkan being 1.3 instead of 1.1 on 8, hence stuff on windows 8 will be untested, until I have, spare machine/time and/or reasoning/motivation to do so. 
+-  I cant log in to X on the legacy OS, I dont know why just that site, doesnt support legacy browsers for security or something my best guess??
+
+### Development
 Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Its also looking like there will have to be sub-menus. Here is the further details on components...
 - Install of, KB2770917, KB2779768, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps. Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
 - Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
