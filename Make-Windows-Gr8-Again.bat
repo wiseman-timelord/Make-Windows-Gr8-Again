@@ -52,9 +52,9 @@ echo.
 echo.
 echo.
 echo.
-echo 1. Run Make-Windows-Gr8-Again
+echo     1. Run Make-Windows-Gr8-Again
 echo.
-echo 2. Install Requirements
+echo     2. Install Requirements
 echo.
 echo.
 echo.
