@@ -5,7 +5,34 @@ Status : Alpha - Its not made yet, and likely it will be progressed only each ti
 Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, which turns out to still be a perfectly good OS, just with version limits, and "Legacy" versions of applications. While in the making (It will take a while to research, then finalize the, apps and groups, then, make and test), this page should somewhat assists people with, list of components and version numbers, for their own installations of Windows 8/Server 2012. This project may shift to being developed for Server 2012 first, due to windows 8 limitations being significant in comparrisson, such as .net 4.8 instead of 4.6.1 on 8, and powershell 6.2.7 instead of 4.0 on 8, vulkan being 1.3 instead of 1.1 on 8.
 
 ### Preview
-- here is the current main menu...
+- Here is the Batch Menu currently...
+```
+===============================================================================
+    Make-Windows-Gr8-Again
+===============================================================================
+
+
+
+
+
+
+
+
+    1. Run Make-Windows-Gr8-Again
+
+    2. Install PowerShell 4/5.1
+
+
+
+
+
+
+
+===============================================================================
+Selection; Run Program = 1, Install PowerShell = 2, Exit Program = X:
+
+```
+- here is the current plan for the Python main menu...
 ```
 =======================================================================================================
     Make-Windows-Gr8-Again : Main Menu
