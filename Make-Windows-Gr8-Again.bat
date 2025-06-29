@@ -5,19 +5,34 @@ cd /d "%~dp0"
 :: Skip the header function initially
 goto main
 
+:: ===== SEPARATOR FUNCTION =====
+:get_terminal_width
+:: Get terminal width using powershell
+for /f "delims=" %%A in ('powershell -nologo -command "[console]::WindowWidth"') do set "termwidth=%%A"
+:: Adjust width for rendering bug
+set /a termwidth-=1
+goto :eof
+
+:separator
+call :get_terminal_width
+setlocal enabledelayedexpansion
+set "line=="
+set "full="
+for /l %%i in (1,1,%termwidth%) do set "full=!full!!line!"
+echo !full!
+endlocal
+goto :eof
+
 :: ===== HEADER FUNCTION =====
 :header
-echo ====================================================================================
+call :separator
 echo     Make-Windows-Gr8-Again
-echo ====================================================================================
+call :separator
 echo.
 goto :eof
 
 :: ===== MAIN LOGIC =====
 :main
-:: Set console window size
-mode con: cols=107 lines=24
-
 :: Check for admin rights
 NET SESSION >nul 2>&1
 if %ERRORLEVEL% neq 0 (
@@ -31,11 +46,23 @@ if %ERRORLEVEL% neq 0 (
 :menu
 call :header
 echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
 echo 1. Run Make-Windows-Gr8-Again
 echo.
 echo 2. Install Requirements
 echo.
-echo ==================
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+call :separator
 set /p "choice=Selection; Run Program = 1, Install Requirements = 2, Exit Program = X: "
 
 :: Process user input
