@@ -53,6 +53,26 @@ Software Installation:
 Selection (1-8, X=Exit): 
 
 ```
+- Here is new feature option 1-5 "Wiseman-Timelords Gaming Tweaks", this covers some gaming issues...
+```
+Installing: WiseMan-TimeLords Gaming Tweaks
+Detected OS: Microsoft Windows Server 2012 Standard
+Installing Desktop Experience feature...
+
+Success Restart Needed Exit Code      Feature Result
+------- -------------- ---------      --------------
+True    No             NoChangeNeeded {}
+  [SUCCESS] Desktop Experience installed
+Configuring Windows Audio Service...
+  [SUCCESS] Windows Audio Service configured
+Configuring gaming services...
+  [OK] Set Plug and Play to Automatic
+  [OK] Set Multimedia Class Scheduler to Automatic
+  [SUCCESS] Service configuration complete
+
+Gaming tweaks complete!
+For best results, please restart your computer.
+```
 - Here is the original plan for the main menu line-up so far...
 ```
 =======================================================================================================
@@ -69,7 +89,7 @@ Improvement Options:
     7. Install WinFireCtrl5.4 + SoundSwitch6.14 + FreeAlarmClock5.4.
     8. Activate TestingMode + Install DriverBooster8.
     9. Install VulkanSdk 1.1/1.3 + DirectX11.
-    10. Install Python 3.8(Win8)/3.9(2012) + Powershell 4(Win8)/5.1+6.2.5(2012).
+    10. Install Python 3.8(Win8)/3.9(2012) + Powershell 4(Win8)/5.1+6.2.5(2012).b
     11. Install K-LiteCodecs + MediaPlayerClassic + VideoLanClassic
     12. Install, Brave1.47, WaterfoxG6.0, GoogleEarthPro7.x.
     13. Install, TorBrowser13.5 + qBittorrent4.5 + 7z.
