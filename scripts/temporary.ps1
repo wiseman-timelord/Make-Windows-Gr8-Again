@@ -1,4 +1,4 @@
-# Script: `.\scripts\temporary.py`
+# Script: `.\scripts\temporary.ps1`
 # Initialize installation state
 $Global:InstallState = @{}
 
@@ -19,8 +19,8 @@ $Global:Categories = @{
                 Name = "Context Menu Hacks + TeraCopy"
                 Commands = @(
                     '# Apply context menu registry tweaks'
-                    '$contextReg = @"
-Windows Registry Editor Version 5.00
+                    '$contextReg = @"'
+'Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
 @="Open cmd here as admin"
@@ -89,7 +89,7 @@ Windows Registry Editor Version 5.00
                 Commands = @(
                     '# Detect OS version',
                     '$osInfo = Get-CimInstance Win32_OperatingSystem',
-                    '$isServer = $osInfo.ProductType -eq 3',
+                    '$isServer = Test-IsServer',
                     '$osName = $osInfo.Caption',
                     'Write-Host "Detected OS: $osName"',
                     'Start-Sleep -Seconds 1',
@@ -98,58 +98,70 @@ Windows Registry Editor Version 5.00
                     'if ($isServer) {',
                     '    Write-Host "Installing Desktop Experience feature..."',
                     '    try {',
-                    '        Add-WindowsFeature Desktop-Experience -ErrorAction Stop',
+                    '        Install-WindowsFeature Desktop-Experience -IncludeManagementTools -ErrorAction Stop',
                     '        Write-Host "  [SUCCESS] Desktop Experience installed" -ForegroundColor Green',
                     '    } catch {',
                     '        Write-Host "  [ERROR] Failed to install Desktop Experience: $_" -ForegroundColor Red',
-                    '        Start-Sleep -Seconds 3',
+                    '        $success = $false',
                     '    }',
                     '    Start-Sleep -Seconds 1',
                     '} else {',
                     '    Write-Host "Desktop Experience not required on client OS"',
-                    '    Start-Sleep -Seconds 1',
                     '}',
                     '',
                     '# 2. Configure Windows Audio Service',
                     'Write-Host "Configuring Windows Audio Service..."',
                     'try {',
-                    '    Set-Service -Name Audiosrv -StartupType Automatic -ErrorAction Stop',
-                    '    Start-Service Audiosrv -ErrorAction Stop',
+                    '    $audioService = Get-Service -Name Audiosrv -ErrorAction Stop',
+                    '    if ($audioService.StartType -ne "Automatic") {',
+                    '        Set-Service -Name Audiosrv -StartupType Automatic -ErrorAction Stop',
+                    '    }',
+                    '    if ($audioService.Status -ne "Running") {',
+                    '        Start-Service Audiosrv -ErrorAction Stop',
+                    '    }',
                     '    Write-Host "  [SUCCESS] Windows Audio Service configured" -ForegroundColor Green',
                     '} catch {',
                     '    Write-Host "  [ERROR] Failed to configure audio service: $_" -ForegroundColor Red',
-                    '    Start-Sleep -Seconds 3',
+                    '    $success = $false',
                     '}',
                     'Start-Sleep -Seconds 1',
                     '',
                     '# 3. Configure other gaming services',
                     'Write-Host "Configuring gaming services..."',
                     'try {',
-                    '    # Enable required services',
-                    '    $servicesToEnable = @("Audiosrv", "PlugPlay", "MMCSS")',
+                    '    # Correct service names for Windows 8/2012',
+                    '    $servicesToEnable = @(''Audiosrv'', ''PlugPlay'', ''MMCSS'')',
+                    '    $serviceDisplayNames = @{',
+                    '        Audiosrv = "Windows Audio"',
+                    '        PlugPlay = "Plug and Play"',
+                    '        MMCSS = "Multimedia Class Scheduler"',
+                    '    }',
+                    '',
                     '    foreach ($service in $servicesToEnable) {',
-                    '        if (Get-Service $service -ErrorAction SilentlyContinue) {',
-                    '            Set-Service -Name $service -StartupType Automatic',
-                    '            Write-Host "  [OK] Set $service to Automatic"',
+                    '        $svc = Get-Service -Name $service -ErrorAction SilentlyContinue',
+                    '        if ($svc) {',
+                    '            if ($svc.StartType -ne "Automatic") {',
+                    '                Set-Service -Name $service -StartupType Automatic -ErrorAction Stop',
+                    '                Write-Host "  [OK] Set $($serviceDisplayNames[$service]) to Automatic"',
+                    '            }',
+                    '        } else {',
+                    '            Write-Host "  [WARNING] Service $service not found" -ForegroundColor Yellow',
                     '        }',
                     '    }',
                     '',
-                    '    # Disable Windows Search if not needed',
-                    '    $disableSearch = $false',
+                    '    # Disable Windows Search if on server',
                     '    if ($isServer) {',
-                    '        $disableSearch = $true',
-                    '        Write-Host "  [INFO] Windows Search will be disabled on server"',
+                    '        $searchService = "WSearch"',
+                    '        if (Get-Service -Name $searchService -ErrorAction SilentlyContinue) {',
+                    '            Set-Service -Name $searchService -StartupType Disabled',
+                    '            Stop-Service -Name $searchService -Force -ErrorAction SilentlyContinue',
+                    '            Write-Host "  [OK] Disabled Windows Search service"',
+                    '        }',
                     '    }',
-                    '    if ($disableSearch) {',
-                    '        Set-Service -Name WSearch -StartupType Disabled',
-                    '        Stop-Service WSearch -Force -ErrorAction SilentlyContinue',
-                    '        Write-Host "  [OK] Disabled Windows Search service"',
-                    '    }',
-                    '',
                     '    Write-Host "  [SUCCESS] Service configuration complete" -ForegroundColor Green',
                     '} catch {',
                     '    Write-Host "  [ERROR] Failed to configure services: $_" -ForegroundColor Red',
-                    '    Start-Sleep -Seconds 3',
+                    '    $success = $false',
                     '}',
                     'Start-Sleep -Seconds 1',
                     '',
@@ -177,8 +189,8 @@ Windows Registry Editor Version 5.00
             @{
                 Name = "Enable TLS 1.2 Protocol"
                 Commands = @(
-                    '$tlsReg = @"
-Windows Registry Editor Version 5.00
+                    '$tlsReg = @"'
+'Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
 
@@ -240,11 +252,82 @@ Windows Registry Editor Version 5.00
             @{
                 Name = "Enable Testing Mode + DriverBooster"
                 Commands = @(
+                    '# Enable testing mode'
                     'bcdedit /set testsigning on'
-                    '$url = "https://driver-booster.informer.com/download/"'
-                    '$path = Invoke-SafeDownload -Url $url -FileName "driverbooster.exe"'
-                    'Start-Process $path /S'
-                    '$Global:InstallState["Drivers-0"] = $true'
+                    'Write-Host "  [OK] Testing mode enabled" -ForegroundColor Green'
+                    ''
+                    '# Verify testing mode'
+                    '$testMode = (bcdedit | Select-String "testsigning" | Out-String).Trim()'
+                    'if ($testMode -match "Yes") {'
+                    '    Write-Host "  [SUCCESS] Testing mode verified" -ForegroundColor Green'
+                    '} else {'
+                    '    Write-Host "  [WARNING] Testing mode not active - reboot required" -ForegroundColor Yellow'
+                    '}'
+                    ''
+                    '# Check for Server 2012'
+                    'if (Test-IsServer2012) {'
+                    '    Write-Host "  [INFO] DriverBooster does not work with Server 2012 - skipping installation" -ForegroundColor Cyan'
+                    '    $success = $true'
+                    '}'
+                    'else {'
+                    '    # Download DriverBooster with progress display'
+                    '    $url = "https://delivery2.filecroco.com/kits_6/driver_booster_setup.exe"'
+                    '    $fileName = "driverbooster.exe"'
+                    '    $tempPath = Get-TempPath'
+                    '    $filePath = Join-Path $tempPath $fileName'
+                    ''
+                    '    # Force TLS 1.2 for secure download'
+                    '    try {'
+                    '        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12'
+                    '    } catch {'
+                    '        Write-Host "  [WARNING] Failed to set TLS 1.2: $_" -ForegroundColor Yellow'
+                    '    }'
+                    ''
+                    '    try {'
+                    '        Write-Host "Downloading $fileName... " -NoNewline'
+                    '        $webClient = New-Object System.Net.WebClient'
+                    ''
+                    '        # Add progress tracker'
+                    '        $event = Register-ObjectEvent -InputObject $webClient -EventName DownloadProgressChanged -Action {'
+                    '            $progress = $eventArgs.ProgressPercentage'
+                    '            if ($progress % 10 -eq 0 -and $progress -ne $global:lastProgress) {'
+                    '                Write-Host "$progress% " -NoNewline'
+                    '                $global:lastProgress = $progress'
+                    '            }'
+                    '        }'
+                    ''
+                    '        $global:lastProgress = -1'
+                    '        $webClient.DownloadFileAsync([Uri]$url, $filePath)'
+                    ''
+                    '        # Wait for download to complete'
+                    '        while ($webClient.IsBusy) { Start-Sleep -Milliseconds 100 }'
+                    '        Unregister-Event -SourceIdentifier $event.Name'
+                    '        Write-Host "100% Complete!"'
+                    ''
+                    '        if (Test-Path $filePath) {'
+                    '            Write-Host "  [OK] Starting DriverBooster installation..."'
+                    '            Start-Process -FilePath $filePath -ArgumentList "/S" -Wait'
+                    '            if ($LASTEXITCODE -eq 0) {'
+                    '                Write-Host "  [SUCCESS] DriverBooster installed" -ForegroundColor Green'
+                    '                $success = $true'
+                    '            } else {'
+                    '                Write-Host "  [WARNING] DriverBooster installation exited with code $LASTEXITCODE" -ForegroundColor Yellow'
+                    '                $success = $false'
+                    '            }'
+                    '        } else {'
+                    '            throw "File not found after download"'
+                    '            $success = $false'
+                    '        }'
+                    '    }'
+                    '    catch {'
+                    '        Write-Host "  [ERROR] Download failed: $_" -ForegroundColor Red'
+                    '        $success = $false'
+                    '    }'
+                    '    finally {'
+                    '        if ($webClient) { $webClient.Dispose() }'
+                    '    }'
+                    '}'
+                    '$Global:InstallState["Drivers-0"] = $success'
                 )
             },
             @{

@@ -10,19 +10,50 @@ function Get-TempPath {
 function Invoke-SafeDownload {
     param($Url, $FileName)
     
+    # Add TLS workaround for older systems
+    try {
+        # Enable strong TLS versions
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12 -bor
+            [System.Net.SecurityProtocolType]::Tls11 -bor
+            [System.Net.SecurityProtocolType]::Tls
+    } catch {
+        Write-Host "  [WARNING] Failed to set security protocol: $_" -ForegroundColor Yellow
+    }
+    
     $tempPath = Get-TempPath
     $filePath = Join-Path $tempPath $FileName
     try {
-        Write-Host "Downloading $FileName..."
-        (New-Object Net.WebClient).DownloadFile($Url, $filePath)
+        Write-Host "Downloading $FileName... " -NoNewline
+        $webClient = New-Object System.Net.WebClient
+        
+        # Add progress tracker
+        $event = Register-ObjectEvent -InputObject $webClient -EventName DownloadProgressChanged -Action {
+            $progress = $eventArgs.ProgressPercentage
+            if ($progress % 10 -eq 0 -and $progress -ne $global:lastProgress) {
+                Write-Host "$progress% " -NoNewline
+                $global:lastProgress = $progress
+            }
+        }
+        
+        $global:lastProgress = -1
+        $webClient.DownloadFileAsync([Uri]$Url, $filePath)
+        
+        # Wait for download to complete
+        while ($webClient.IsBusy) { Start-Sleep -Milliseconds 100 }
+        Unregister-Event -SourceIdentifier $event.Name
+        Write-Host "100% Complete!"
+        
         if (Test-Path $filePath) {
             return $filePath
         }
         throw "File not found after download"
     }
     catch {
-        Write-Host "Download failed: $_" -ForegroundColor Red
+        Write-Host "`nDownload failed: $_" -ForegroundColor Red
         return $null
+    }
+    finally {
+        if ($webClient) { $webClient.Dispose() }
     }
 }
 
@@ -36,23 +67,21 @@ function Install-Selections {
             Write-Host "`nInstalling: $($item.Name)" -ForegroundColor Cyan
             
             $success = $true
-            foreach ($command in $item.Commands) {
-                try {
-                    # Skip state tracking commands during execution
-                    if (-not $command.Contains('$Global:InstallState')) {
-                        Invoke-Expression $command
-                    }
-                }
-                catch {
-                    $success = $false
-                    Write-Host "  [ERROR] $($item.Name): $_" -ForegroundColor Red
-                }
+            $scriptBlock = [scriptblock]::Create(($item.Commands -join "`n"))
+            
+            try {
+                # Execute as a single script block
+                & $scriptBlock
+            }
+            catch {
+                $success = $false
+                Write-Host "  [ERROR] $($item.Name): $_" -ForegroundColor Red
             }
             
             if ($success) {
                 Write-Host "  [SUCCESS] Installed successfully" -ForegroundColor Green
-                # Force state update even if tracking command failed
-                Invoke-Expression "`$Global:InstallState['$Category-$itemIndex'] = `$true"
+                # Force state update
+                $Global:InstallState["$Category-$itemIndex"] = $true
             }
             else {
                 Write-Host "  [WARNING] Installation had errors" -ForegroundColor Yellow
@@ -63,5 +92,11 @@ function Install-Selections {
 }
 
 function Test-IsWindows8 {
-    (Get-CimInstance Win32_OperatingSystem).Caption -match "Windows 8"
+    $os = Get-CimInstance Win32_OperatingSystem
+    ($os.Caption -match "Windows 8") -or ($os.Caption -match "Windows Server 2012")
+}
+
+function Test-IsServer2012 {
+    $os = Get-CimInstance Win32_OperatingSystem
+    $os.Caption -match "Windows Server 2012"
 }
