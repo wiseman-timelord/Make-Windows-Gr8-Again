@@ -1,4 +1,4 @@
-# launcher.ps1
+# Script: `.\launcher.ps1`
 # Entry point for Make-Windows-Gr8-Again
 
 # Relaunch as admin

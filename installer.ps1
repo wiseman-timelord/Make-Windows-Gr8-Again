@@ -1,3 +1,4 @@
+# Script: `.\installer.ps1`
 # PowerShell 5.1 upgrade installer
 # For Windows 8/2012 systems
 # Requires PS 3.0+
