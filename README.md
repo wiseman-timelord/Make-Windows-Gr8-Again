@@ -2,7 +2,7 @@
 Status : Alpha - Its not made yet, and likely it will be progressed only each time I install windows 8/2012...
 
 ### Description
-Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, for which 2012 turns out to still be a perfectly good OS for most applicatins, just with, start menu issues, version limits, and sometimes neccessary Legacy versions of applications, and Max DirectX11/Vulkan1.2, and required tweaks/enables. This beign not such great idea for modern hardware, but good idea for the 2005-2015 hardware, if there are drivers for the used hardware, but this is where driver booster and such programs are also useful.
+Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, for which turns out to still be a perfectly good OS for most applicatins and with update then some more. The start menu issues may be sorted out simply, some programs have version limits, and sometimes neccessary Legacy versions of applications. Max Graphics is DirectX11/Vulkan1.2 level. Windows 8/2012 also has required tweaks/enables for full game experience. Windows 8/2012 beimg not such great idea for modern hardware, but good idea for the 2005-2015 hardware, if there are drivers for the used hardware, but this is where driver booster and such programs are also useful.
 
 ### Preview
 - Here is the Batch Menu currently...
