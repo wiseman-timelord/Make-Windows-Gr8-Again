@@ -1,4 +1,4 @@
-# utilities.ps1
+# Script: `.\scripts\utilities.ps1`
 # Helper functions for installation
 
 function Get-TempPath {

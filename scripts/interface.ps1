@@ -1,4 +1,4 @@
-# interface.ps1
+# Script: `.\scripts\interface.ps1`
 # User interface functions
 
 function Set-ConsoleSettings {
