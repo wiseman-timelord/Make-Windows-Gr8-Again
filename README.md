@@ -134,3 +134,4 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 - Wondows 2012 doesnt have aero by default on boot, need to investigate the effects of mod attempted/failed with 8. Themes are necessary for some stuff to install/run correctly though ie drivers/graphical stuff.
 - Support for drivers, can be ok if you have the correct drivers, but finding drivers manually useually involves trying to find any 7/8/8.1 compatible driver for the hardware, as useually 8 wont be listed, hence, unpacking drivers and DriverSearch/Installer, may be involved. 
 - Windows 8/2012 build 9200 were the last versions of windows to be released where "Bill Gates" was the CEO of "Microsoft". 
+- Both, `Grok` and `X-Grok`, do fail to work on any browser so far on 8/2012, even Supernium latest.
