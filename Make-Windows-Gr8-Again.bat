@@ -54,7 +54,7 @@ echo.
 echo.
 echo     1. Run Make-Windows-Gr8-Again
 echo.
-echo     2. Install Powershell 4/5.1
+echo     2. Install Powershell 4/5.1 (advised)
 echo.
 echo.
 echo.
@@ -63,20 +63,22 @@ echo.
 echo.
 echo.
 call :separator
-set /p "choice=Selection; Run Program = 1, Install PowerShell = 2, Exit Program = X: "
+set /p "choice=Selection; Menu Options = 1-2, Exit Program = X: "
 
 :: Process user input
 if "%choice%"=="1" (
     echo Launching launcher.ps1...
     timeout /t 1 >nul
     pwsh -ExecutionPolicy Bypass -File "launcher.ps1"
-    goto exit_sequence
+    timeout /t 1 >nul
+    goto menu
 )
 if "%choice%"=="2" (
     echo Launching installer.ps1...
     timeout /t 1 >nul
     pwsh -ExecutionPolicy Bypass -File "installer.ps1"
-    goto exit_sequence
+    timeout /t 1 >nul
+    goto menu
 )
 if /i "%choice%"=="X" (
     goto exit_sequence
