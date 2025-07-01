@@ -2,7 +2,7 @@
 Status : Alpha - Its not made yet, and likely it will be progressed only each time I install windows 8/2012...
 
 ### Description
-Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, for which turns out to still be a perfectly good OS for most applicatins and with update then some more. The start menu issues may be sorted out simply, some programs have version limits, and sometimes neccessary Legacy versions of applications. Max Graphics is DirectX11/Vulkan1.2 level. Windows 8/2012 also has required tweaks/enables for full game experience. Windows 8/2012 beimg not such great idea for modern hardware, but good idea for the 2005-2015 hardware, if there are drivers for the used hardware, but this is where driver booster and such programs are also useful.
+Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, for which turns out to still be a perfectly good OS for most applicatins and with update then some more. The start menu issues may be sorted out simply, some programs have version limits, and sometimes neccessary Legacy versions of applications. Max Graphics is DirectX11/Vulkan1.2 level. Windows 8/2012 also has required tweaks/enables for full game experience. Windows 8/2012 beimg not such great idea for modern hardware, but good idea for the 2005-2015 hardware. 
 
 ### Preview
 - Here is the Batch Menu currently...
@@ -132,4 +132,5 @@ Additional Software has appeared in the Preview, must ensure all is covered, but
 
 ### Notations
 - Wondows 2012 doesnt have aero by default on boot, need to investigate the effects of mod attempted/failed with 8. Themes are necessary for some stuff to install/run correctly though ie drivers/graphical stuff.
+- Support for drivers, can be ok if you have the correct drivers, but finding drivers manually useually involves trying to find any 7/8/8.1 compatible driver for the hardware, as useually 8 wont be listed, hence, unpacking drivers and DriverSearch/Installer, may be involved. 
 - Windows 8/2012 build 9200 were the last versions of windows to be released where "Bill Gates" was the CEO of "Microsoft". 
