@@ -39,13 +39,13 @@ Selection; Run Program = 1, Install PowerShell = 2, Exit Program = X:
 =======================================================================================================
 
 System Configuration:
-    1. Core System Tweaks (2/4 done)
-    2. Security & Privacy (1/3 done)
+    1. Core System Tweaks (0/4 done)
+    2. Security & Privacy (0/3 done)
     3. .NET & Runtime Components (0/2 done)
     4. Driver & Hardware Support (0/2 done)
 
 Software Installation:
-    5. Essential Utilities (1/2 done)
+    5. Essential Utilities (0/2 done)
     6. Media & Productivity (0/2 done)
     7. Internet & Networking (0/2 done)
     8. Development Tools (0/2 done)
