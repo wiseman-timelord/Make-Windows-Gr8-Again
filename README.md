@@ -1,5 +1,5 @@
 # Make-Windows-Gr8-Again
-Status : Alpha - Its not made yet, and likely it will be progressed only each time I install windows 8/2012...
+Status : Alpha - Its not made yet, and likely it will be progressed somewhat more each time I install windows 8/2012...
 
 ### Description
 Like the name states, the project is intended to revamp windows, 8 and 2012, build 9200, for which turns out to still be a more optimized OS for, most applications and with update then some more. The start menu issues may be sorted out simply, some programs have version limits, and sometimes necessary Legacy versions of applications. Max Graphics is DirectX11/Vulkan1.2 level. Windows 8/2012 also has required tweaks/enables for full game experience. Windows 8/2012 being not such great idea for modern hardware, but good idea for the 2005-2015 hardware. 
