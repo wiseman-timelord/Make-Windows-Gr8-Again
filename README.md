@@ -111,25 +111,26 @@ Selection; Options = 1-18, Exit = X:
 - OpenHardwareMonitor is only safe to install, if somehow we can pre-configure to not show stats for drives, or will hang on shutdown with usbdrive plugged in.
 
 ### Development
-Additional Software has appeared in the Preview, must ensure all is covered, but there should be some more lines below. Its also looking like there will have to be sub-menus. Here is the further details on components...
+Here are some further details on components...
+- Need to install directx11, then copy xinput1_3.dll to xinput1_4.dll, in both system32 and wow64, to fix xinput1_4.dll errors.
 - Install of, KB2770917, KB2779768, KB2785094, KB2795944, which are critical for things to work more correctly with somewhat modern apps. Server 2012 had "KB27959442" built-in, while Windows 8 required it to be installed.
-- Install Python 3.9, using script from other completed project (but remove build tools part, as not working).
+- Install Python 3.9.6, using script from other completed project (but remove build tools part, as not working).
 - Install of Powershell limited to 4.0 on Win 8. Server 2012 is able to install [.NET Core 2.1.818](https://dotnet.microsoft.com/en-us/download/dotnet/2.1), and then [PowerShell Core 6.2.7](https://github.com/PowerShell/PowerShell/releases/download/v6.2.7/PowerShell-6.2.7-win-x64.msi) .
 - Install of, "Run here as Admin", "Open Command Prompt as Admin", "Add Recycle to Navigation Pane", "Take_Ownership", "Open Powershell Window here as Admin"
 - Addition of, `Desktop\Shutdown_Now` and `C\Destroy_All`, scripts for shutdown reinforcement and selective data erasure.
 - Install of, AMD or nVidia or Both. Still determening depth of features. could involve identifiers unlocking for certain drivers. There may be enhancements to do for hybrid nvidia/amd gpu setups.
 - Activation of "Testing Mode" will enable "Unsigned Drivers", hence, drivers are more likely to install correctly.
-- Win8 limited to .net 4.6.1, while server 2012 was .Net 4.8 (final). Deepseek said it was to do with server's lts aspect. It would be nice to be able to install 4.8 on both though, solve a lot of app issues.
+- Win8 limited to .net 4.6.1, while server 2012 was .Net 4.8 (final) through the core 2.1 update.
 - Delete default windows media including, pictures and movies, from all user/public directories. Server 2012 does not have such media.
 - Install K-Lite Codec Pack with options, minimal, regular, full, in sub-menu.
 - Disable relevant components, then Remove Airplane Mode + traces, while not breaking mobile internet support. Server 2012 does NOT have, airplane mode.
 - Disable themes. Redirect default starting theme to being Classic (as it always boots with aero, that then unloads for classic). Remove Aero + Traces. 
 - Enable Firewall and Install of Windows Firewall Control. The firewall already present gets some buffout. (try find latest compatible version)
 - Install rainmeter for powershell with plugin enhancement desktop stats, with simple re-programability through AI. 
-- Install old version of Driver Booster 8. Its auto-installer seems windows 8 unsupported. It will try to update without the user's concent.
 - Install of best version of vulkan_sdk, for windows 8 its 1.1 and for server 2012 its 1.3. Hard to find 1.1. 1.0 is out there but no direct link. 
 - Win8 will require optional Defender remove, while 2012 already has this removed.
 - Install Last Monthly rollup updates Windows8/[Server2012](https://www.catalog.update.microsoft.com/Search.aspx?q=KB5029295) (from just before they broke startisback) + Insert [TLS 1.2/1.3](https://manage.accuwebhosting.com/knowledgebase/3578/How-to-enable-TLS-1.2-on-Windows-2012-Server.html) into registry + [Update Root Certificates](https://github.com/asheroto/UpdateRootCertificates/releases/tag/4.0.0)
+
 
 ### Considerations
 - Windows - Windows, 8 and 2012, both build 9200 (the final builds before 8.1/2012R2 Beta). 
