@@ -87,7 +87,7 @@ Improvement Options:
     5. Install, ContextWindowRegHacks + TetraCopy3.17(Win8).
     6. Insall XP-AntiSpy + WindowsPrivacyTweaker.
     7. Install WinFireCtrl5.4 + SoundSwitch6.14 + FreeAlarmClock5.4.
-    8. Activate TestingMode + Install DriverBooster8.
+    8. Activate TestingMode + Install DriverBooster12.5.
     9. Install VulkanSdk 1.1/1.3 + DirectX11.
     10. Install Python 3.8(Win8)/3.9(2012) + Powershell 4(Win8)/5.1+6.2.5(2012).b
     11. Install K-LiteCodecs + MediaPlayerClassic + VideoLanClassic
